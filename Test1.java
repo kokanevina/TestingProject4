@@ -20,4 +20,7 @@ class EmployeeTest{
         System.out.println(empName);
         System.out.println(empSalary);
     }
+    public String toString(){
+        return "hello";
+    }
 }
