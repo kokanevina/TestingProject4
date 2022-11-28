@@ -12,4 +12,8 @@ class EmployeeTest{
         System.out.println(empId);
         System.out.println(empName);
     }
+    public void show(){
+        System.out.println(empId);
+        System.out.println(empName);
+    }
 }
