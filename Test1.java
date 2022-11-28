@@ -4,7 +4,10 @@ class EmployeeTest{
     private String empName;
     private double empSalary;
 
-    EmployeeTest(int id,String name,double salary){
+    public EmployeeTest(){
+        System.out.println("Default");
+    }
+    public EmployeeTest(int id,String name,double salary){
         empId=id;
         empName=name;
         empSalary=salary;
